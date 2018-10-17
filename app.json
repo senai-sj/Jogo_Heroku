@@ -1,0 +1,50 @@
+{
+  "name": "Jogo_Heroku",
+  "description": "Arquivo JSON do repositório, feito para realizar testes de Implementação Contínua (IC)",
+  "scripts": {
+    "postdeploy": "bin/setup",
+    "pr-predestroy": "bin/teardown"
+  },
+  "env": {
+    "GMAIL_DOMAIN": {
+      "required": true
+    },
+    "GMAIL_PASSWORD": {
+      "required": true
+    },
+    "GMAIL_USERNAME": {
+      "required": true
+    },
+    "LANG": {
+      "required": true
+    },
+    "RACK_ENV": {
+      "required": true
+    },
+    "RAILS_ENV": {
+      "required": true
+    },
+    "RAILS_LOG_TO_STDOUT": {
+      "required": true
+    },
+    "RAILS_SERVE_STATIC_FILES": {
+      "required": true
+    },
+    "SECRET_KEY_BASE": {
+      "required": true
+    }
+  },
+  "formation": {
+    "web": {
+      "quantity": 1
+    }
+  },
+  "addons": [
+    "heroku-postgresql"
+  ],
+  "buildpacks": [
+    {
+      "url": "heroku/ruby"
+    }
+  ]
+}
