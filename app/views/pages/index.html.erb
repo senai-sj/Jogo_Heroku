@@ -1,3 +1,5 @@
+<div id="header"><h1>Frutorama</h1></div>
+
 <div id="subheader">Menu Principal</div>
 
 <!-- <div class="intro" onclick="inicio()">
@@ -14,11 +16,11 @@
 
 </div> -->
 <div id="form">
-  <a href="pages/fases" ><input type="submit" value="Iniciar"></input></a><br>
-  <a href="pages/tutorial"><input type="submit" value="Tutorial"></input></a><br>
-  <a href="pages/creditos"><input type="submit" value="Creditos"></input></a><br>
-  <a href="pages/lideres"><input type="submit" value="Placar de Líderes"></input></a><br>
-  <%= link_to "Logout", destroy_user_session_path, method: :delete, :class => 'navbar-link'  %>
+  <a href="/fases" ><input type="submit" value="Iniciar"></input></a><br>
+  <a href="/tutorial"><input type="submit" value="Tutorial"></input></a><br>
+  <a href="/creditos"><input type="submit" value="Creditos"></input></a><br>
+  <a href="/lideres"><input type="submit" value="Placar de Líderes"></input></a><br>
+  <%= link_to "Logout", destroy_user_session_path, method: :delete, class: "button"  %>
 </div>
 
 <!-- <audio src="/sons/Funkorama.mp3" preload="auto" id="music0"></audio>

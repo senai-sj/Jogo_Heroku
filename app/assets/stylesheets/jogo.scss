@@ -7,7 +7,7 @@
 
 .bg {
 	padding: 1em;
-	background-image: url(../img/Palmeiras.png);
+	background: image-url('Palmeiras.png');
 	background-size: cover;
 	background-repeat: no-repeat;
 	position: relative;
@@ -18,7 +18,7 @@
 }
 .bg2 {
 	padding: 1em;
-	background-image: url(../img/montanhas.png);
+	background: image-url('montanhas.png');
 	background-size: cover;
 	background-repeat: no-repeat;
 	position: relative;
@@ -29,7 +29,7 @@
 }
 .bg3 {
 	padding: 1em;
-	background-image: url(../img/cidade.png);
+	background: image-url('cidade.png');
 	background-size: cover;
 	background-repeat: no-repeat;
 	position: relative;
@@ -40,7 +40,7 @@
 }
 .bg4 {
 	padding: 1em;
-	background-image: url(../img/campo.png);
+	background: image-url('campo.png');
 	background-size: cover;
 	background-repeat: no-repeat;
 	position: relative;
@@ -51,7 +51,7 @@
 }
 .bg5 {
 	padding: 1em;
-	background-image: url(../img/sol_nascente.png);
+	background: image-url('sol_nascente.png');
 	background-size: cover;
 	background-repeat: no-repeat;
 	position: relative;
@@ -62,7 +62,7 @@
 }
 .bg6 {
 	padding: 1em;
-	background-image: url(../img/neon.png);
+	background: image-url('neon.png');
 	background-size: cover;
 	background-repeat: no-repeat;
 	position: relative;
@@ -73,7 +73,7 @@
 }
 .bg7 {
 	padding: 1em;
-	background-image: url(../img/porto.png);
+	background: image-url('porto.png');
 	background-size: cover;
 	background-repeat: no-repeat;
 	position: relative;
@@ -84,7 +84,7 @@
 }
 .bg8 {
 	padding: 1em;
-	background-image: url(../img/metropolis.png);
+	background: image-url('metropolis.png');
 	background-size: cover;
 	background-repeat: no-repeat;
 	position: relative;
@@ -95,7 +95,7 @@
 }
 .bg9 {
 	padding: 1em;
-	background-image: url(../img/prados.png);
+	background: image-url('prados.png');
 	background-size: cover;
 	background-repeat: no-repeat;
 	position: relative;
@@ -106,7 +106,7 @@
 }
 .bg10 {
 	padding: 1em;
-	background-image: url(../img/templo.png);
+	background: image-url('templo.png');
 	background-size: cover;
 	background-repeat: no-repeat;
 	position: relative;
@@ -209,12 +209,12 @@
 #player {
 	width:50px;
 	height:30px;
-	background-image: url("../img/cesto.png");background-repeat: no-repeat;
+	background: image-url('cesto.png');background-repeat: no-repeat;
 	position: absolute;
 	top: 500px;
 	left: 350px;
 }
-#maca {
+/*#maca {
 	background-image: url("../img/maca.png");background-repeat: no-repeat;
 	position: absolute;
 	width: 30px;
@@ -325,7 +325,7 @@
 	height: 30px;
 	left: 546px;
 	top: 308px;
-}
+}*/
 
 /* Estrutura*/
 #placar {
