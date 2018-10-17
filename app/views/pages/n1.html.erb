@@ -1,4 +1,4 @@
-
+<%javascript_include_tag 'n1'%>
 <div class="bg">
 	<div class="inicio" onclick="start();">
 		<h1>Instruções</h1><br>
@@ -27,8 +27,8 @@
 <audio src="/sons/Loping_Sting.mp3" preload="auto" id="victory"></audio>
 
 <div id="buttonrow">
-	<a href="/"><input type="submit" value="Sair"></input></a>
-	<a href="/n1"><input type="submit" value="Reiniciar"></input></a>
-	<button class="button" onclick="pausa();">Pausar</button>
+	<a href="/" id="default_button">Sair</a>
+	<a href="/n1" id="default_button">Reiniciar</a>
+	<button id="default_button" onclick="pausa();">Pausar</button>
 </div>
 
