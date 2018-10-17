@@ -2,7 +2,7 @@
 
 ### Repositório do Heroku
 
-	Repositório utilizado para os **Deploys** do Heroku. Evite
+	Repositório utilizado para os Deploys do Heroku. Evite
 	programar diretamente neste repositório. IC a parte.
 
 ---
