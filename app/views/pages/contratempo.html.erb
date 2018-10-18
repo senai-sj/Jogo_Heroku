@@ -1,7 +1,13 @@
-<script src="/assets/n9.js"></script>
-<div class="bg9">
-	<div class="intro" onclick="start();">
-		<h1>Fase 9</h1><br>
+<script src="/assets/plataforma.js"></script>
+
+<div class="bg">
+	<div class="inicio" onclick="start();">
+		<h1>Instruções</h1><br>
+		<p>Mova o personagem com as setas < - > ou A e D</p><br>
+		<p>Modo Contra o Tempo!</p><br>
+		<p>Colete o máximo de itens em 60 segundos</p><br>
+		<b>♫ Fones de ouvido Recomendados ♫</b>
+		<h3>Clique aqui para iniciar</h3>
 	</div>
 	<div id="player"><br></div>
 	<div id="maca"><br></div>
@@ -25,13 +31,12 @@
 <div id="tempo" onload="cronos()"></div>
 <div id="saude" onload="vidas()"></div>
 
-<audio src="/sons/Harmful_or_Fatal.mp3" preload="auto" id="musica"></audio>
+<audio src="/sons/DD_Groove.mp3" preload="auto" id="musica"></audio>
 <audio src="/sons/Discovery_Hit.mp3" preload="auto" id="gameover"></audio>
 <audio src="/sons/Loping_Sting.mp3" preload="auto" id="victory"></audio>
 
 <div id="buttonrow">
-	<a href="/"><input type="submit" name="Sair"></input></a>
-	<a href="/n9"><input type="submit" value="Reiniciar"></input></a>
+	<a href="/" id="default_button">Sair</a>
+	<a href="/contratempo" id="default_button">Reiniciar</a>
 	<button id="default_button" onclick="pausa();">Pausar</button>
 </div>
-
